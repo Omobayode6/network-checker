@@ -25,7 +25,7 @@ function showResult(e){
   if(!input.value){
     alert("Phone number cannot be empty")
   }else if(input.value.length !== 11){
-    alert("Input the right phone number")
+    alert("Enter the right phone number")
   }else{
     //show hidden div
     resultDiv.classList.toggle('hide-result')
