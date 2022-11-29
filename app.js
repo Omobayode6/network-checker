@@ -78,7 +78,7 @@ function showResult(e){
     
     //reset the input to nothing after submition
     input.value = ""
-    //hide the Carrier Network Checker interface after submition
+    //hide the Network Carrier Checker interface after submition
     boxDiv.classList.toggle('hide-result');
   }
 } 
